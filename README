@@ -4,4 +4,8 @@ Pi day is on the 14th of March in 2015 (3/14/15) because the date spells out the
 
 In celebration of this once in a long time event, this repository contains a simple program to calculate pi using a variant of the Leibniz formula for pi.
 
+See https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80 for more details.
+
 Enjoy!
+
+Usage: pi <iterations>
