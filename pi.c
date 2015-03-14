@@ -8,10 +8,16 @@ int main(int argc, char **argv)
 		return -1;
 	}
 	
+	/* massive ints here */
 	unsigned long long i;
 	unsigned long long iter = strtoull(argv[1], argv[2], 10);
 	
 	printf("Doing %llu iterations.\n", iter);
+	
+	/*
+	 * long double gave me some weird results on mingw, works fine on 
+	 * gcc in linux though
+	 */
 	
 	long double sum = 0.0;
 	
